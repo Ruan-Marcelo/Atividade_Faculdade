@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Monitoramento de Almoxarifado</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Registro de Materiais</h1>
+
+    <form>
+      <label>Nome do Material:</label>
+      <input type="text" required placeholder="Digite o material" />
+
+      <br /><br />
+
+      <label>Código:</label>
+      <input type="number" required />
+
+      <br /><br />
+
+      <label>Categoria:</label>
+      <select>
+        <option>Ferramentas</option>
+        <option>EPIs</option>
+        <option>Insumos</option>
+      </select>
+
+      <br /><br />
+
+      <label>Nível de Criticidade:</label>
+
+      <input type="radio" name="criticidade" /> Baixa
+      <input type="radio" name="criticidade" /> Média
+      <input type="radio" name="criticidade" /> Alta
+
+      <br /><br />
+
+      <button type="submit">Registrar Entrada</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Material</th>
+          <th>Código</th>
+          <th>Categoria</th>
+          <th>Criticidade</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Chave Inglesa</td>
+          <td>101</td>
+          <td>Ferramentas</td>
+          <td>Baixa</td>
+        </tr>
+
+        <tr>
+          <td>Capacete</td>
+          <td>202</td>
+          <td>EPIs</td>
+          <td class="urgente">Alta</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

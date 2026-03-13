@@ -1,0 +1,70 @@
+Ruan Marcelo Ramacioti Luz
+
+1)
+E) Garantir a sobrevivência dos dados; se um nó fosse destruído, a informação encontraria outro  caminho. 
+2)
+A) O que você abre, você PRECISA fechar; esquecer de fechar uma tag pode "bagunçar" toda a  página. 
+3)
+D) TLD (Top Level Domain) Genérico e ccTLD (Country Code). 
+4)
+B) <meta charset="UTF-8"> 
+5)
+C) O atributo alt com uma descrição concisa e fiel da imagem. 
+6)
+E) Deve-se usar apenas UM H1 por página, representando o tema central do documento.
+7)
+C) Usar <input type="radio"> onde cada botão possui um name exclusivo. 
+8)
+E) Traduzir o placeholder do formulário para leitores de tela estrangeiros.
+9)
+D) required 
+10)
+C) controls 
+11)
+B) src="imagens/foto.jpg" 
+12)
+E) Representa o conteúdo principal e único da página, e deve haver apenas UM por documento.
+13)
+D) <article> 
+14)
+A) Agrupar o menu de navegação principal e links de navegação essenciais. 
+15)
+C) Traduz nomes amigáveis (ex: google.com) para os endereços IP que as máquinas entendem.
+16)
+E) <br> força uma quebra de linha simples e <hr> cria uma linha horizontal para divisão de  temas.
+17)
+B) <span> 
+18)
+D) type="audio/mpeg"
+19)
+A) Porque ela ajuda a identificar visualmente a hierarquia (quem é "filho" de quem) e detectar  erros estruturais. 
+20)
+C) Marcar o fechamento de divisões complexas, como <!-- fim da div principal -->.
+21)
+C) Pode ser usado múltiplas vezes, como um rodapé para a página e outros dentro  de <article>. 
+22)
+D) <abbr> (com o atributo title) 
+23)
+A) O IPv4 utiliza 32 bits e está esgotado; o IPv6 utiliza 128 bits e oferece capacidade infinita.
+24)
+B) Elementos sem significado impedem que robôs de busca e tecnologias assistivas entendam a  página. 
+25)
+ E) Abrirá a página index.html em uma nova aba ou janela
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
