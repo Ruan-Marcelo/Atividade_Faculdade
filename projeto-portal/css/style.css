@@ -1,0 +1,157 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte e corpo do site */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* MENU */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #00d9ff;
+}
+
+/* CONTEÚDO PRINCIPAL */
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* NOTÍCIA */
+article {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+article h2 {
+  margin-bottom: 15px;
+  color: #203a43;
+}
+
+article img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* CITAÇÃO */
+blockquote {
+  margin-top: 20px;
+  padding: 15px;
+  border-left: 5px solid #2c5364;
+  background: #f1f1f1;
+  font-style: italic;
+}
+
+/* SEÇÕES */
+section {
+  background: white;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #203a43;
+}
+
+/* VÍDEO */
+video {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* ÁUDIO */
+audio {
+  width: 100%;
+}
+
+/* FORMULÁRIO */
+form {
+  margin-top: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* RADIO */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* BOTÃO */
+button {
+  background: #2c5364;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00b4d8;
+}
+
+/* FOOTER */
+footer {
+  background: #0f2027;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer address {
+  margin-bottom: 10px;
+  font-style: normal;
+}
