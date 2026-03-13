@@ -1,96 +1,116 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/x-icon" href="/IMG/icon.png" />
-    <title>FutureTech - Tecnologia Sustentável</title>
+    <title>Portal de Exercícios</title>
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        text-align: center;
+      }
+
+      header {
+        background-color: #1f4e79;
+        color: white;
+        padding: 20px;
+      }
+
+      main {
+        padding: 40px;
+      }
+
+      .links {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 30px;
+      }
+
+      .card {
+        background: white;
+        padding: 20px;
+        width: 200px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        transition: 0.2s;
+      }
+
+      .card:hover {
+        transform: scale(1.05);
+      }
+
+      a {
+        text-decoration: none;
+        color: #1f4e79;
+        font-weight: bold;
+      }
+
+      footer {
+        background: #1f4e79;
+        color: white;
+        padding: 15px;
+        margin-top: 40px;
+      }
+    </style>
   </head>
+
   <body>
     <header>
-      <h1>FutureTech</h1>
-      <nav>
-        <ul> 
-          
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#produtos">Produtos</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
+      <h1>Portal de Exercícios</h1>
+      <p>Página principal para acessar todos os exercícios</p>
     </header>
+
     <main>
-      <section id="sobre">
-        <h2>Sobre a FutureTech</h2>
-        <p>
-          A FutureTech é uma startup focada no desenvolvimento de soluções
-          tecnológicas sustentáveis para a indústria moderna. Nosso objetivo é
-          integrar inovação e responsabilidade ambiental em todos os nossos
-          projetos.
-        </p>
-        <p>
-          Trabalhamos com tecnologias limpas, automação inteligente e sistemas
-          digitais que reduzem desperdícios, aumentam a eficiência energética e
-          promovem um futuro mais sustentável.
-        </p>
-      </section>
-      <section id="produtos">
-        <h2>Nossos Produtos</h2>
+      <h2>Lista de Exercícios</h2>
 
-        <article>
-          <h3>Geladeiras de Baixo Consumo com IA</h3>
-          <img
-            style="width: 30%"
-            src="IMG/Geladeiras de Baixo Consumo com IA.png"
-            alt="Geladeira com IA"
-          />
-          <p>
-            Modelos recentes da Electrolux e Samsung usam inteligência
-            artificial para aprender seus hábitos e otimizar o resfriamento,
-            reduzindo drasticamente o gasto de energia.
-          </p>
-        </article>
+      <div class="links">
+        <div class="card">
+          <a href="aula_html1/index.html" target="_blank">Exercício 1</a>
+        </div>
+        <div class="card">
+          <a href="aula_html1/aula2.html" target="_blank">Exercício 2</a>
+        </div>
+        <div class="card">
+          <a href="curriculo/index.html" target="_blank">Curriculo</a>
+        </div>
+        <div class="card">
+          <a href="aula_html1/teste.html" target="_blank">Teste HTML</a>
+        </div>
+        <div class="card">
+          <a href="aula_html2/index.html" target="_blank">Tabelas</a>
+        </div>
 
-        <article>
-          <h3>Chuveiros Inteligentes com Recirculação</h3>
-          <img
-            style="width: 20%"
-            src="IMG/Chuveiros com Recirculação.png"
-            alt="Chuveiros com recirculação"
-          />
-          <p>
-            Sistemas que filtram e reutilizam a água do banho em tempo real,
-            economizando até 90% de água e 80% de energia
-          </p>
-        </article>
-      </section>
+        <div class="card">
+          <a href="FutureTech/index.html" target="_blank">Future Tech</a>
+        </div>
+        <div class="card">
+          <a href="Atividade-Prática-Portal-SENAI-Ribeirão-Preto-RuanMarcelo/index.html" target="_blank">Atividade Pratica Portal Senai</a>
+        </div>
 
-      <section>
-        <h2>Diferenciais</h2>
-        <ol>
-          <li>Redução significativa de custos operacionais</li>
-          <li>Tecnologia sustentável e de baixo impacto ambiental</li>
-          <li>Monitoramento inteligente com análise em tempo real</li>
-        </ol>
-      </section>
+        <div class="card">
+          <a href="estilizado/indexx_Estilizada.html" target="_blank"
+            >Future Tech estilizado</a
+          >
+        </div>
 
-      <section id="contato">
-        <h2>Contato</h2>
-        <p>Email: angolaTech@gmail.com</p>
-        <p>Telefone: (16) 4002-8922</p>
-      </section>
+        <div class="card">
+          <a href="Atividade 3/index.html" target="_blank">Exercício 3</a>
+        </div>
+
+        <div class="card">
+          <a href="projeto-portal/index.html" target="_blank"
+            >AVALIAÇÂO DE HTML</a
+          >
+        </div>
+      </div>
     </main>
 
     <footer>
-      <p>&copy; 2026 FutureTech. Todos os direitos reservados.</p>
-      <p>
-        Siga-nos:
-        <a href="https://www.instagram.com" target="_blank">Instagram</a> |
-        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
-        <a href="https://www.facebook.com" target="_blank">Facebook</a>
-      </p>
-    </footer> 
-
-   
-    <a href="./estilizado/indexx_Estilizada.html" class="btn"> aqui </a>
-
+      <p>&copy; 2026 - Portal de Exercícios</p>
+    </footer>
   </body>
 </html>
