@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula tebela</title>
+</head>
+<body>
+      <form>
+        <div>
+          <label for="nome">Nome da maquina:</label>
+          <input type="text" id="nome" name="nome" required />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="text">Nome de serie:</label>
+          <input type="text" id="text" name="text" required />
+        </div>
+        <br>
+        <div>
+        <label >Setor:</label>
+          <select required>
+            <option selected disabled value="">Selecione...</option>
+            <option>Produção</option>
+            <option>Coleta</option>
+            <option>Operador</option>
+          </select>
+          <br>
+        <br />
+
+        <button type="submit">Cadastrar</button>
+      </form>
+    <h2>Lista de equipamentos (tabelas)</h2>
+
+    <table border="2">
+        <thead>
+            <tr style="background: purple;">
+                <th >ID</th>
+                <th>Nome Maquina</th>
+                <th>Numero de serie</th>
+                <th>Setor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background: purple;">01</td>
+                <td>Torno CNC</td>
+                <td>3546</td>
+                <td>Produção</td>
+            </tr>
+            <tr>
+                <td style="background: purple;">02</td>
+                <td>Torno BNB</td>
+                <td>2454</td>
+                <td>Produção</td>
+            </tr>
+            <tr>
+                <td style="background: purple;">03</td>
+                <td>Torno RER</td>
+                <td>4526</td>
+                <td>Manutenção</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><hr>
+    <form action="">
+          <div>
+          <label for="nome">maquina:</label> <br>
+          <input type="text" id="nome" name="nome" required />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="number">Codigo:</label><br>
+          <input type="number" id="number" name="number" min="0" required />
+        </div>
+        <br>
+        <div>
+        <label >Setor:</label> <br>
+          <select required>
+            <option selected disabled value="">Selecione...</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+          </select>
+          <br><br>
+
+         <label>Status: </label>
+        <input type="radio" id="masc" name="status" value="Operando">
+        <label for="masc">Operando</label>
+        <input type="radio" id="fem" name="status" value="Parada">
+        <label for="fem">Parada</label>
+          <br> <br>
+        <button type="submit">Registrar manutenção</button>
+    </form>
+
+     <table border="2">
+        <thead>
+            <tr style="background: green;">
+                <th >ID</th>
+                <th>Equipamento</th>
+                <th>Tipo</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="background: green;">01</td>
+                <td>Equipamento 1</td>
+                <td>Preventiva</td>
+                <td>Operando</td>
+            </tr>
+            <tr>
+                <td style="background: green;">02</td>
+                <td>Equipamento 2</td>
+                <td>Manutnenção</td>
+                <td>Parado</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

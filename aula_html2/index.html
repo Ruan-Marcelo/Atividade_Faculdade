@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Formulário de Cadastro</title>
+
+    <style>
+      body {
+        background-color: #e9ecef;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card {
+        padding: 25px;
+        width: 350px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="card">
+      <h4 class="text-center mb-3">Formulário de Cadastro</h4>
+
+      <form class="needs-validation" novalidate>
+        <div class="mb-3">
+          <label for="validationCustom01" class="form-label"
+            >Nome da Máquina:</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="validationCustom01"
+            placeholder="Ex: Torno CNC"
+            required
+          />
+           <div class="invalid-feedback">Por Favor digite um nome valido.</div>
+          <div class="valid-feedback">Verificado</div>
+        </div>
+
+        <div class="mb-3">
+          <label for="validationCustom01" class="form-label"
+            >Número de Série:</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="validationCustom01"
+            placeholder="Ex: TR-500"
+            required
+          />
+           <div class="invalid-feedback">Por Favor digite um numero de serie valido.</div>
+          <div class="valid-feedback">Verificado</div>
+        </div>
+
+        <div class="mb-3">
+          <label for="validationCustom04" class="form-label">Setor:</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Selecione...</option>
+            <option>Produção</option>
+            <option>Coleta</option>
+            <option>Operador</option>
+          </select>
+          <div class="invalid-feedback">Por Favor Selecione um setor valido.</div>
+        </div>
+
+        <div class="text-end">
+          <button type="submit" class="btn btn-danger">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+    <script>
+      (function () {
+        "use strict";
+
+        var forms = document.querySelectorAll(".needs-validation");
+
+        Array.prototype.slice.call(forms).forEach(function (form) {
+          form.addEventListener(
+            "submit",
+            function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+
+              form.classList.add("was-validated");
+            },
+            false,
+          );
+        });
+      })();
+    </script>
+  </body>
+</html>
